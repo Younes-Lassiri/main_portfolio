@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import front from './Images/front.png';
 import cour from './Images/cour.png';
-import weather from './Images/weather.png'
+import weather from './Images/weather.png';
+import sushi from './Images/sushimain.png';
 import './Recent.css'
 import { Link } from 'react-router-dom'
 function isMobileDevice() {
@@ -94,6 +95,21 @@ export default function Recent() {
                         The weather application is a web-based tool designed to provide users with up-to-date weather information for locations worldwide.</div>
                     <div className='showUp-two'>↑</div>
                 </div>
+                </Link>
+            </div>
+
+            <div className='project-section-one'>
+                <div>
+                    <img src={sushi}/>
+                </div>
+                <Link to='/portfolios/3/fidalgo_sushi_restaurant'>
+                <div className='showUp'>
+                    <div className='showUp-one'>
+                        <h3>Fidalgo−Sushi−Restaurant</h3>
+                        iscover the ultimate sushi experience with our online restaurant!</div>
+                    <div className='showUp-two'>↑</div>
+                </div>
+
                 </Link>
             </div>
               </>

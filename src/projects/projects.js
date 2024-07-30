@@ -3,16 +3,21 @@ import two from './pics/two.PNG';
 import three from './pics/three.PNG';
 import four from './pics/four.PNG';
 import five from './pics/five.PNG';
-import onem from './pics/onem.jpeg'
-import twom from './pics/twom.jpeg'
-import fivem from './pics/fivem.jpeg'
-import sixm from './pics/sixm.jpeg'
-import sevenm from './pics/sevenm.jpeg'
-import weaone from './pics/weaone.PNG'
-import weatwo from './pics/weatwo.PNG'
-import weathree from './pics/weathree.PNG'
-import weafour from './pics/weafour.PNG'
-import weafive from './pics/weafive.PNG'
+import onem from './pics/onem.jpeg';
+import twom from './pics/twom.jpeg';
+import fivem from './pics/fivem.jpeg';
+import sixm from './pics/sixm.jpeg';
+import sevenm from './pics/sevenm.jpeg';
+import weaone from './pics/weaone.PNG';
+import weatwo from './pics/weatwo.PNG';
+import weathree from './pics/weathree.PNG';
+import weafour from './pics/weafour.PNG';
+import weafive from './pics/weafive.PNG';
+import sushione from './pics/upwork_one.PNG';
+import sushitwo from './pics/upwork_nine.PNG';
+import sushithree from './pics/upwork_five.PNG';
+import sushifour from './pics/upwork_three.PNG';
+import sushifive from './pics/upwork_eight.PNG';
 const project = [
     {
         id: 0,
@@ -64,6 +69,22 @@ const project = [
         descs: 'The weather application is a web-based tool designed to provide users with up-to-date weather information for locations worldwide. Built using React and Axios, it leverages the WeatherAPI to fetch and display weather data. Users can enter a location to view current weather conditions, including temperature, humidity, wind speed, and a brief description of the weather conditions. The application also supports fetching a 15-day weather forecast using the forecast.json endpoint from the WeatherAPI. This project aims to offer a user-friendly interface that dynamically updates based on user input, providing accurate and detailed weather information.',
         story: 'Imagine you wake up to plan your day, whether it"s a morning jog, a picnic with friends, or a road trip. You want to know what the weather will be like, not just for today but also for the coming days. This is where WeatherApp comes in handy.',
         approach: 'Our approach for the weather application focuses on delivering a seamless user experience through a modern, React-based interface. By leveraging Axios for efficient data fetching from the WeatherAPI, we ensure real-time weather updates and a 15-day forecast capability. Integrating i18next enables clear location name translations, catering to global users. Our development emphasizes responsive design principles, meticulous testing across devices, and iterative refinement based on user feedback. This approach aims to provide users with a reliable, intuitive tool for accessing accurate weather information effortlessly, whether they"re planning daily activities or long-term travel plans.',
+    },
+    {
+        id: 3,
+		preview: 'https://sushi-restaurant-eight.vercel.app/',
+        name: 'Fidalgo Sushi Restaurant',
+        mainPic: sushione,
+        category: ['Web design', 'Responsive Design'],
+        client: 'Restaurant online store',
+        start_date: 'July 15, 2024',
+        designer: 'Younes Lassiri',
+        desc: 'Discover the ultimate sushi experience with our online restaurant! Browse our menu of exquisite sushi and Japanese dishes, customize your order, and choose your table and arrival time for a perfect dining experience. Enjoy the convenience of placing your order online and share your feedback with our easy-to-use review system. Taste the freshness, savor the flavors, and let us know how we’re doing!',
+        pics: [
+            sushitwo, sushithree, sushifour, sushifive
+        ],
+        descs: "Welcome to SushiDelight, your go-to online sushi restaurant for an exceptional dining experience! Our platform allows you to effortlessly explore our diverse menu, featuring everything from classic sushi rolls and sashimi to inventive fusion dishes and traditional Japanese favorites. With just a few clicks, you can customize your order, select your preferred table, and specify the time you'd like your meal to be readyEnjoy the convenience of pre-ordering and ensure your table is set when you arrive. After your meal, take a moment to leave a review and rate your experience—your feedback helps us continually refine our offerings and service. At SushiDelight, we blend fresh ingredients with top-notch service to deliver a dining experience that’s both convenient and memorable.",
+        approach: "Experience a new level of sushi dining with SushiDelight, where convenience meets exceptional quality. Our online platform lets you effortlessly explore a diverse menu of fresh, expertly crafted sushi and Japanese dishes. Customize your order, choose your table number, and set your preferred arrival time to ensure everything is perfectly timed. Once you've enjoyed your meal, easily leave a review to share your thoughts and help us continuously improve. At SushiDelight, we make it easy for you to savor top-notch sushi with a touch of personalized service, all from the comfort of your own device.",
     }
 ]
 
